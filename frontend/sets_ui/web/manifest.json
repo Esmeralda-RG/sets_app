@@ -1,6 +1,6 @@
 {
-    "name": "sets_app",
-    "short_name": "sets_app",
+    "name": "sets_ui",
+    "short_name": "sets_ui",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

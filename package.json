@@ -1,0 +1,26 @@
+{
+  "name": "sets_app_backend",
+  "version": "1.0.0",
+  "description": "Una API en Node.js para realizar operaciones básicas y relaciones en teoría de conjuntos, como unión, intersección, diferencia y complemento.",
+  "main": "app.js",
+  "type": "module",  
+  "scripts": {
+    "dev": "nodemon backend/src/app.js",
+    "build": "cd frontend/sets_ui && flutter build web && cp -r build/web/* ../../public",
+    "start": "node backend/src/app.js"
+  },
+  "keywords": [
+    "conjuntos",
+    "teoria",
+    "de",
+    "conjuntos",
+    "API"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@ai-sdk/openai": "^0.0.40",
+    "ai": "^3.3.0",
+    "express": "^4.19.2"
+  }
+}
